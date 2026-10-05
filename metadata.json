@@ -1,0 +1,7 @@
+{
+  "name": "TradingView Markets",
+  "description": "TradingView financial portal tracking US & World stocks, Crypto, Futures, Forex, Bonds and World Indices with interactive market charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

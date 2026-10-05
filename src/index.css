@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-black: #131722;
+  --color-tv-gray: #787b86;
+  --color-tv-lightGray: #f0f3fa;
+  --color-tv-border: #e0e3eb;
+  --color-tv-blue: #2962ff;
+  --color-tv-blueHover: #1e53e5;
+  --color-tv-green: #089981;
+  --color-tv-red: #f23645;
+  --color-tv-bgLight: #f8f9fd;
+  --color-tv-cardBg: #f0f3fa;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  --font-mono: 'JetBrains Mono', "SF Mono", Monaco, Inconsolata, "Fira Code", monospace;
+}
+
+@layer base {
+  body {
+    color: #131722;
+    background-color: #ffffff;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.market-card-hover {
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.market-card-hover:hover {
+  background-color: #e9ecf2;
+}
